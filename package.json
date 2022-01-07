@@ -53,7 +53,7 @@
 	},
 	"scripts": {
 		"dev": "react-scripts start",
-		"intergartion": "chmod +x ./env.sh && ./env.sh && cp env-config.js ./public/ && react-scripts start",
+		"intergartion": "chmod +x ./env.sh && ./env.sh && cp src/env-config.js ./public/ && react-scripts start",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -78,6 +78,6 @@
 	},
 	"devDependencies": {
 		"redux-devtools-extension": "^2.13.8",
-		"sass": "^1.29.0"
+		"sass": "~1.29.0"
 	}
 }
